@@ -4,262 +4,243 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Lee, Chang Seok (이창석)
+    tagline: Research Assistant Professor
+    # avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: mtsonicc@gmail.com
+    # phone: 012 345 6789
+    # timezone: America/Cancun Timezone
+    # citizenship:
+    # website: blog.webjeda.com #do not add http://
+    # linkedin: alandoe
+    # xing: alandoe
+    github: mtsonicc
+    # telegram: # add your nickname without '@' sign
+    # gitlab:
+    # bitbucket:
+    # twitter: '@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
+    orcid: 0000-0002-8205-8147
+    pdf: ./cv.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: English
-          level: Native
+    # languages:
+    #   title: Languages
+    #   info:
+    #     - idiom: Korean
+    #       level: Native
 
-        - idiom: French
-          level: Professional
+    #     - idiom: English
+    #       level: Advanced
 
-        - idiom: Spanish
-          level: Professional
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
 
-        - item: Snowboarding
-          link:
+    #     - item: Snowboarding
+    #       link:
 
-        - item: Cooking
-          link:
+    #     - item: Cooking
+    #       link:
 
 career-profile:
-    title: Career Profile
+    title: Keywords
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+        &#8226; Numerical simulation; Hysteretic model; Nonlinear analysis;
+
+        &#8226; Machine learning; Optimization; Algorithm;
+
+        &#8226; Reinforced concrete; Steel structures;
+
+        &#8226; Seismic performance assessment; Seismic design;
+      # I am a researcher specializing in numerical simulation of various structures subjected to ground motions.
+      # "&#8226; 11321312412"
+
 education:
-    title: Education
+    title: Education & Employment History
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - degree: Research Assistant Professor
+        university: Hanyang University
+        time: 2021 - Current
+        details: 1
+      - degree: Post-doctoral Researcher
+        university: Hanyang University
+        time: 2018 - 2021
+        details: 1
+      - degree: PhD in Architectural Engineering
+        university: Hanyang University
+        time: 2012 - 2018
+        details: 1
+      - degree: MSc in Architectural Engineering
+        university: Hanyang University
+        time: 2006 - 2012
+        details: 1
 
 experiences:
-    title: Experiences
+    title: Teaching Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      - role: Structural Reliability and Risk (Instructor, 3-hr/week)
+        time: 2023/09–2023/12
+        company: Hanyang University, Republic of Korea
+        # details: Structural Reliability and Risk (Instructor, 3-hr/week)
+            # - Bullet point
+            # - Bullet point
 
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Reinforced Concrete Engineering (Instructor, 3-hr/week)
+        time:  2023/03–2023/06
+        company: Hanyang University, Republic of Korea
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+      - role: Engineering Mechanics (Instructor, 3-hr/week)
+        time: 2022/03–2022/06
+        company: Andong National University, Republic of Korea
+
+      - role: Dynamics of Structures (Instructor, 3-hr/week)
+        time: 2021/09–2022/02
+        company: Hanyang University, Republic of Korea
+
+      - role: Reinforced Concrete (Instructor, 3-hr/week)
+        time: 2019/09–2019/12
+        company: Institute for Future Talents, Hanyang University, Republic of Korea
+
+      - role: Structural Analysis (Instructor, 6-hr/week)
+        time: 2019/08–2019/10
+        company: Institute for Future Talents, Hanyang University, Republic of Korea
+
+      - role: Structural Analysis (Instructor, 3-hr/week)
+        time: 2019/05–2019/08
+        company: Institute for Future Talents, Hanyang University, Republic of Korea
+
+      - role: Reinforced Concrete (Instructor, 6-hr/week)
+        time: 2019/03–2019/06
+        company: Dongyang Mirae University, Republic of Korea
+
+      - role: Reinforced Concrete (Instructor, 3-hr/week)
+        time: 2018/09–2018/12
+        company: Institute for Future Talents, Hanyang University, Republic of Korea
+
+
+# certifications:
+#       title: Certifications
+#       list:
+#         - name: CV Builder
+#           start: 2020
+#           end: 2021
+#           organization: Microsoft
+#           credentialid: 111-222
+#           credentialurl: www.google.com
+#           credentialname: Google
+#           details: 1
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Awarded Research & Industry Grants
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Collapse assessment of 3D structures using probability-based boundary condition adaptive model
+        # link: "#hook"
+        # 경계조건 적응형 확률기반 모델을 이용한 삼차원 구조물의 생애주기 붕괴평가;
+        tagline: Basic Science Research Program (<b>&#8361;70,000,000/year</b>)
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Member of Scientific Committee
+    # intro: >
+    #   You can list your open source software contributions in this
+    #   section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    #   Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: "Korea Concrete institute Committee: Slabs and Walls"
+        tagline: "2022/12 – present"
+      - title: "Korea Concrete institute Committee: Terminology"
+        tagline: "2023/01 – 2024/12"
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# publications:
+#     title: SCIE Publications -- 2023
+#     papers:
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+publications-2023:
+    title: SCIE Publications
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: <b>Lee CS</b>, Mangalathu S, Jeon J. Machine learning–assisted drift capacity prediction models for reinforced concrete columns with shape memory alloy bars. <i>Computer-Aided Civil and Infrastructure Engineering</i>. <b>(Accepted for publication)</b>;mice.13112.
+        link: https://doi.org/10.1111/mice.13112
+      - title: Shturmin S, <b>Lee CS</b>, Jeon JS. Lumped plasticity model for simulating the inelastic earthquake response of CFT columns. <i>Journal of Constructional Steel Research</i>. <b>2023</b>;211:108196.
+        link: https://doi.org/10.1016/j.jcsr.2023.108196
+      - title: <b>Lee CS</b>, Jeon JS. Seismic risk-based optimization of tension-only shape-memory alloy device for steel moment-resisting frames. <i>Engineering Structures</i>. <b>2023</b>;296:116976.
+        link: https://doi.org/10.1016/j.engstruct.2023.116976
+      - title: <b>Lee CS</b>, Jeon JS. Risk-based seismic design of diagonal self-centering shape-memory alloy wire-based bracing system in multi-column bent bridges. <i>Engineering Structures</i>. <b>2023</b>;289:116295.
+        link: https://doi.org/10.1016/j.engstruct.2023.116295
+      - title: <b>Lee CS</b>, Jeon J. Probabilistic residual deformation prediction model for rectangular reinforced concrete columns. <i>Earthquake Engineering & Structural Dynamics</i>. <b>2022</b>;51(9):1994-2015.
+        link: https://doi.org/10.1002/eqe.3650
+      - title: <b>Lee CS</b>, Jeon J. Phenomenological hysteretic model for superelastic NiTi shape memory alloys accounting for functional degradation. <i>Earthquake Engineering & Structural Dynamics</i>. <b>2022</b>;51(2):277-309.
+        link: https://doi.org/doi:10.1002/eqe.3566
+      - title: <b>Lee CS</b>, Jeon JS. Drift limit state predictions of rectangular reinforced concrete columns with superelastic shape memory alloy rebars. <i>Journal of Building Engineering</i>. <b>2022</b>;54:104546.
+        link: https://doi.org/doi:10.1016/j.jobe.2022.104546
+      - title: <b>Lee CS</b>, Choi E, Jeon JS. Estimating the plastic hinge length of rectangular concrete columns reinforced with NiTi superelastic shape memory alloys. <i>Engineering Structures</i>. <b>2022</b>;252:113641.
+        link: https://doi.org/doi:10.1016/j.engstruct.2021.113641
+      - title: <b>Lee CS</b>, Park Y, Jeon JS. Model parameter prediction of lumped plasticity model for nonlinear simulation of circular reinforced concrete columns. <i>Engineering Structures</i>. <b>2021</b>;245:112820.
+        link: https://doi.org/doi:10.1016/j.engstruct.2021.112820
+      - title: <b>Lee CS</b>, Jeon J. Adaptive hysteretic model for reinforced concrete columns including variations in axial force and shear span length. <i>Earthquake Engineering & Structural Dynamics</i>. <b>2021</b>;50(15):4001-4031.
+        link: https://doi.org/doi:10.1002/eqe.3543
+      - title: <b>Lee CS</b>, Han SW. An Accurate Numerical Model Simulating Hysteretic Behavior of Reinforced Concrete Columns Irrespective of Types of Loading Protocols. <i>International Journal of Concrete Structures and Materials</i>. <b>2021</b>;15(1):5.
+        link: https://doi.org/doi:10.1186/s40069-020-00446-5
+      - title: Han SW, <b>Lee CS</b>, Cho ES. Modeling parameters and acceptable plastic chord rotations for diagonally reinforced concrete coupling beams. <i>Journal of Building Engineering</i>. <b>2021</b>;44:102650.
+        link: https://doi.org/doi:10.1016/j.jobe.2021.102650
+      - title: Alvi MH, <b>Lee CS</b>, Jeon JS. Model development and seismic performance evaluation of rectangular reinforced concrete columns with short lap splices in existing building frames. <i>Engineering Structures</i>. <b>2021</b>;245:112922.
+        link: https://doi.org/doi:10.1016/j.engstruct.2021.112922
+      - title: Han SW, <b>Lee CS</b>. Cyclic behavior of RC OMF beam-corner column joints under unidirectional and bidirectional loadings. <i>Engineering Structures</i>. <b>2020</b>;224:111304.
+        link: https://doi.org/doi:10.1016/j.engstruct.2020.111304
+      - title: Han SW, <b>Lee CS<sup>*</sup></b>. Cyclic behavior of lightly reinforced concrete moment frames with partial- and full-height masonry walls. <i>Earthquake Spectra</i>. <b>2020</b>;36(2):599-628.
+        link: https://doi.org/doi:10.1177/8755293019899960
+      - title: Han SW, Koh H, <b>Lee CS<sup>*</sup></b>. Fragility functions of different groups of diagonally reinforced concrete coupling beams (DRCBs). <i>Bulletin of Earthquake Engineering</i>. <b>2020</b>;18(1):165-187.
+        link: https://doi.org/doi:10.1007/s10518-019-00693-2
+      - title: <b>Lee CS</b>, Han SW. Cyclic behaviour of lightly-reinforced concrete columns with short lap splices subjected to unidirectional and bidirectional loadings. <i>Engineering Structures</i>. <b>2019</b>;189:373-384.
+        link: https://doi.org/doi:10.1016/j.engstruct.2019.03.108
+      # - title: Han SW, <b>Lee CS<sup>*</sup></b>, Paz Zambrana MA, Lee K. Calibration Factor for ASCE 41-17 Modeling Parameters for Stocky Rectangular RC Columns. <i>Applied Sciences</i>. <b>2019</b>;9(23):5193.
+      #   link: https://doi.org/doi:10.3390/app9235193
+      - title: Han SW, Koh H, <b>Lee CS<sup>*</sup></b>. Accurate and Efficient Simulation of Cyclic Behavior of Diagonally Reinforced Concrete Coupling Beams. <i>Earthquake Spectra</i>. <b>2019</b>;35(1):361-381.
+        link: https://doi.org/doi:10.1193/060717EQS108M
+      - title: <b>Lee CS</b>, Sung MS, Han SW, Jee HW. Computationally Efficient and Accurate Simulation of Cyclic Behavior for Rectangular HSS Braces. <i>International Journal of Steel Structures</i>. <b>2018</b>;18(4):1125-1138.
+        link: https://doi.org/doi:10.1007/s13296-018-0071-5
+      - title: <b>Lee CS</b>, Han SW. Computationally effective and accurate simulation of cyclic behaviour of old reinforced concrete columns. <i>Engineering Structures</i>. <b>2018</b>;173:892-907.
+        link: https://doi.org/doi:10.1016/j.engstruct.2018.07.020
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python
         level: 95%
 
-      - name: Ruby on Rails
+      - name: C++
+        level: 95%
+
+      - name: OpenSees
+        level: 99%
+
+      - name: MATLAB
+        level: 98%
+
+      - name: TCL
+        level: 95%
+
+      - name: REVIT
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
