@@ -175,49 +175,49 @@ oss:
 publications-2023:
     title: SCIE Publications
     papers:
-      - title: <b>Lee CS</b>, Mangalathu S, Jeon J. Machine learning–assisted drift capacity prediction models for reinforced concrete columns with shape memory alloy bars. <i>Computer-Aided Civil and Infrastructure Engineering</i>. <b>2024</b>;39(4):595-616.
+      - title: <b>Lee CS</b>, Mangalathu S, Jeon J<sup>*</sup>. Machine learning–assisted drift capacity prediction models for reinforced concrete columns with shape memory alloy bars. <i>Computer-Aided Civil and Infrastructure Engineering</i>. <b>2024</b>;39(4):595-616.
         link: https://doi.org/10.1111/mice.13112
-      - title: Park Y, <b>Lee CS</b>, Jeon JS. Hysteretic model parameters for seismic performance assessment of cyclically degraded reinforced concrete columns. <i>Soil Dynamics and Earthquake Engineering</i>. <b>2024</b>;179:108519.
+      - title: Park Y, <b>Lee CS<sup>*</sup></b>, Jeon J. Hysteretic model parameters for seismic performance assessment of cyclically degraded reinforced concrete columns. <i>Soil Dynamics and Earthquake Engineering</i>. <b>2024</b>;179:108519.
         link: https://doi.org/10.1016/j.soildyn.2024.108519
-      - title: Shturmin S, <b>Lee CS</b>, Jeon JS. Lumped plasticity model for simulating the inelastic earthquake response of CFT columns. <i>Journal of Constructional Steel Research</i>. <b>2023</b>;211:108196.
+      - title: Shturmin S, <b>Lee CS</b>, Jeon J<sup>*</sup>. Lumped plasticity model for simulating the inelastic earthquake response of CFT columns. <i>Journal of Constructional Steel Research</i>. <b>2023</b>;211:108196.
         link: https://doi.org/10.1016/j.jcsr.2023.108196
-      - title: <b>Lee CS</b>, Jeon JS. Seismic risk-based optimization of tension-only shape-memory alloy device for steel moment-resisting frames. <i>Engineering Structures</i>. <b>2023</b>;296:116976.
+      - title: <b>Lee CS</b>, Jeon J<sup>*</sup>. Seismic risk-based optimization of tension-only shape-memory alloy device for steel moment-resisting frames. <i>Engineering Structures</i>. <b>2023</b>;296:116976.
         link: https://doi.org/10.1016/j.engstruct.2023.116976
-      - title: <b>Lee CS</b>, Jeon JS. Risk-based seismic design of diagonal self-centering shape-memory alloy wire-based bracing system in multi-column bent bridges. <i>Engineering Structures</i>. <b>2023</b>;289:116295.
+      - title: <b>Lee CS</b>, Jeon J<sup>*</sup>. Risk-based seismic design of diagonal self-centering shape-memory alloy wire-based bracing system in multi-column bent bridges. <i>Engineering Structures</i>. <b>2023</b>;289:116295.
         link: https://doi.org/10.1016/j.engstruct.2023.116295
-      - title: <b>Lee CS</b>, Jeon J. Probabilistic residual deformation prediction model for rectangular reinforced concrete columns. <i>Earthquake Engineering & Structural Dynamics</i>. <b>2022</b>;51(9):1994-2015.
+      - title: <b>Lee CS</b>, Jeon J<sup>*</sup>. Probabilistic residual deformation prediction model for rectangular reinforced concrete columns. <i>Earthquake Engineering & Structural Dynamics</i>. <b>2022</b>;51(9):1994-2015.
         link: https://doi.org/10.1002/eqe.3650
-      - title: <b>Lee CS</b>, Jeon J. Phenomenological hysteretic model for superelastic NiTi shape memory alloys accounting for functional degradation. <i>Earthquake Engineering & Structural Dynamics</i>. <b>2022</b>;51(2):277-309.
+      - title: <b>Lee CS</b>, Jeon J<sup>*</sup>. Phenomenological hysteretic model for superelastic NiTi shape memory alloys accounting for functional degradation. <i>Earthquake Engineering & Structural Dynamics</i>. <b>2022</b>;51(2):277-309.
         link: https://doi.org/doi:10.1002/eqe.3566
-      - title: <b>Lee CS</b>, Jeon JS. Drift limit state predictions of rectangular reinforced concrete columns with superelastic shape memory alloy rebars. <i>Journal of Building Engineering</i>. <b>2022</b>;54:104546.
+      - title: <b>Lee CS</b>, Jeon J<sup>*</sup>. Drift limit state predictions of rectangular reinforced concrete columns with superelastic shape memory alloy rebars. <i>Journal of Building Engineering</i>. <b>2022</b>;54:104546.
         link: https://doi.org/doi:10.1016/j.jobe.2022.104546
-      - title: <b>Lee CS</b>, Choi E, Jeon JS. Estimating the plastic hinge length of rectangular concrete columns reinforced with NiTi superelastic shape memory alloys. <i>Engineering Structures</i>. <b>2022</b>;252:113641.
+      - title: <b>Lee CS</b>, Choi E, Jeon J<sup>*</sup>. Estimating the plastic hinge length of rectangular concrete columns reinforced with NiTi superelastic shape memory alloys. <i>Engineering Structures</i>. <b>2022</b>;252:113641.
         link: https://doi.org/doi:10.1016/j.engstruct.2021.113641
-      - title: <b>Lee CS</b>, Park Y, Jeon JS. Model parameter prediction of lumped plasticity model for nonlinear simulation of circular reinforced concrete columns. <i>Engineering Structures</i>. <b>2021</b>;245:112820.
+      - title: <b>Lee CS</b>, Park Y, Jeon J<sup>*</sup>. Model parameter prediction of lumped plasticity model for nonlinear simulation of circular reinforced concrete columns. <i>Engineering Structures</i>. <b>2021</b>;245:112820.
         link: https://doi.org/doi:10.1016/j.engstruct.2021.112820
-      - title: <b>Lee CS</b>, Jeon J. Adaptive hysteretic model for reinforced concrete columns including variations in axial force and shear span length. <i>Earthquake Engineering & Structural Dynamics</i>. <b>2021</b>;50(15):4001-4031.
+      - title: <b>Lee CS</b>, Jeon J<sup>*</sup>. Adaptive hysteretic model for reinforced concrete columns including variations in axial force and shear span length. <i>Earthquake Engineering & Structural Dynamics</i>. <b>2021</b>;50(15):4001-4031.
         link: https://doi.org/doi:10.1002/eqe.3543
-      - title: <b>Lee CS</b>, Han SW. An Accurate Numerical Model Simulating Hysteretic Behavior of Reinforced Concrete Columns Irrespective of Types of Loading Protocols. <i>International Journal of Concrete Structures and Materials</i>. <b>2021</b>;15(1):5.
+      - title: <b>Lee CS</b>, Han SW<sup>*</sup>. An Accurate Numerical Model Simulating Hysteretic Behavior of Reinforced Concrete Columns Irrespective of Types of Loading Protocols. <i>International Journal of Concrete Structures and Materials</i>. <b>2021</b>;15(1):5.
         link: https://doi.org/doi:10.1186/s40069-020-00446-5
-      - title: Han SW, <b>Lee CS</b>, Cho ES. Modeling parameters and acceptable plastic chord rotations for diagonally reinforced concrete coupling beams. <i>Journal of Building Engineering</i>. <b>2021</b>;44:102650.
+      - title: Han SW<sup>*</sup>, <b>Lee CS</b>, Cho ES. Modeling parameters and acceptable plastic chord rotations for diagonally reinforced concrete coupling beams. <i>Journal of Building Engineering</i>. <b>2021</b>;44:102650.
         link: https://doi.org/doi:10.1016/j.jobe.2021.102650
-      - title: Alvi MH, <b>Lee CS</b>, Jeon JS. Model development and seismic performance evaluation of rectangular reinforced concrete columns with short lap splices in existing building frames. <i>Engineering Structures</i>. <b>2021</b>;245:112922.
+      - title: Alvi MH, <b>Lee CS</b>, Jeon J<sup>*</sup>. Model development and seismic performance evaluation of rectangular reinforced concrete columns with short lap splices in existing building frames. <i>Engineering Structures</i>. <b>2021</b>;245:112922.
         link: https://doi.org/doi:10.1016/j.engstruct.2021.112922
-      - title: Han SW, <b>Lee CS</b>. Cyclic behavior of RC OMF beam-corner column joints under unidirectional and bidirectional loadings. <i>Engineering Structures</i>. <b>2020</b>;224:111304.
+      - title: Han SW<sup>*</sup>, <b>Lee CS</b>. Cyclic behavior of RC OMF beam-corner column joints under unidirectional and bidirectional loadings. <i>Engineering Structures</i>. <b>2020</b>;224:111304.
         link: https://doi.org/doi:10.1016/j.engstruct.2020.111304
       - title: Han SW, <b>Lee CS<sup>*</sup></b>. Cyclic behavior of lightly reinforced concrete moment frames with partial- and full-height masonry walls. <i>Earthquake Spectra</i>. <b>2020</b>;36(2):599-628.
         link: https://doi.org/doi:10.1177/8755293019899960
       - title: Han SW, Koh H, <b>Lee CS<sup>*</sup></b>. Fragility functions of different groups of diagonally reinforced concrete coupling beams (DRCBs). <i>Bulletin of Earthquake Engineering</i>. <b>2020</b>;18(1):165-187.
         link: https://doi.org/doi:10.1007/s10518-019-00693-2
-      - title: <b>Lee CS</b>, Han SW. Cyclic behaviour of lightly-reinforced concrete columns with short lap splices subjected to unidirectional and bidirectional loadings. <i>Engineering Structures</i>. <b>2019</b>;189:373-384.
+      - title: <b>Lee CS</b>, Han SW<sup>*</sup>. Cyclic behaviour of lightly-reinforced concrete columns with short lap splices subjected to unidirectional and bidirectional loadings. <i>Engineering Structures</i>. <b>2019</b>;189:373-384.
         link: https://doi.org/doi:10.1016/j.engstruct.2019.03.108
       # - title: Han SW, <b>Lee CS<sup>*</sup></b>, Paz Zambrana MA, Lee K. Calibration Factor for ASCE 41-17 Modeling Parameters for Stocky Rectangular RC Columns. <i>Applied Sciences</i>. <b>2019</b>;9(23):5193.
       #   link: https://doi.org/doi:10.3390/app9235193
       - title: Han SW, Koh H, <b>Lee CS<sup>*</sup></b>. Accurate and Efficient Simulation of Cyclic Behavior of Diagonally Reinforced Concrete Coupling Beams. <i>Earthquake Spectra</i>. <b>2019</b>;35(1):361-381.
         link: https://doi.org/doi:10.1193/060717EQS108M
-      - title: <b>Lee CS</b>, Sung MS, Han SW, Jee HW. Computationally Efficient and Accurate Simulation of Cyclic Behavior for Rectangular HSS Braces. <i>International Journal of Steel Structures</i>. <b>2018</b>;18(4):1125-1138.
+      - title: <b>Lee CS</b>, Sung MS, Han SW<sup>*</sup>, Jee HW. Computationally Efficient and Accurate Simulation of Cyclic Behavior for Rectangular HSS Braces. <i>International Journal of Steel Structures</i>. <b>2018</b>;18(4):1125-1138.
         link: https://doi.org/doi:10.1007/s13296-018-0071-5
-      - title: <b>Lee CS</b>, Han SW. Computationally effective and accurate simulation of cyclic behaviour of old reinforced concrete columns. <i>Engineering Structures</i>. <b>2018</b>;173:892-907.
+      - title: <b>Lee CS</b>, Han SW<sup>*</sup>. Computationally effective and accurate simulation of cyclic behaviour of old reinforced concrete columns. <i>Engineering Structures</i>. <b>2018</b>;173:892-907.
         link: https://doi.org/doi:10.1016/j.engstruct.2018.07.020
 
 
