@@ -175,8 +175,10 @@ oss:
 publications-2023:
     title: SCIE Publications
     papers:
-      - title: <b>Lee CS</b>, Mangalathu S, Jeon J. Machine learning–assisted drift capacity prediction models for reinforced concrete columns with shape memory alloy bars. <i>Computer-Aided Civil and Infrastructure Engineering</i>. <b>(Accepted for publication)</b>;mice.13112.
+      - title: <b>Lee CS</b>, Mangalathu S, Jeon J. Machine learning–assisted drift capacity prediction models for reinforced concrete columns with shape memory alloy bars. <i>Computer-Aided Civil and Infrastructure Engineering</i>. <b>2024</b>;39(4):595-616.
         link: https://doi.org/10.1111/mice.13112
+      - title: Park Y, <b>Lee CS</b>, Jeon JS. Hysteretic model parameters for seismic performance assessment of cyclically degraded reinforced concrete columns. <i>Soil Dynamics and Earthquake Engineering</i>. <b>2024</b>;179:108519.
+        link: https://doi.org/10.1016/j.soildyn.2024.108519
       - title: Shturmin S, <b>Lee CS</b>, Jeon JS. Lumped plasticity model for simulating the inelastic earthquake response of CFT columns. <i>Journal of Constructional Steel Research</i>. <b>2023</b>;211:108196.
         link: https://doi.org/10.1016/j.jcsr.2023.108196
       - title: <b>Lee CS</b>, Jeon JS. Seismic risk-based optimization of tension-only shape-memory alloy device for steel moment-resisting frames. <i>Engineering Structures</i>. <b>2023</b>;296:116976.
