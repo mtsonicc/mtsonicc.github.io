@@ -9,11 +9,11 @@ sidebar:
 
     # Profile information
     name: Lee, Chang Seok (이창석)
-    tagline: Research Assistant Professor
+    tagline: Assistant Professor
     # avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hpsonic@hanyang.ac.kr
+    email: leej@honam.ac.kr
     # phone: 012 345 6789
     # timezone: America/Cancun Timezone
     # citizenship:
@@ -63,15 +63,17 @@ career-profile:
         &#8226; Reinforced concrete; Steel structures;
 
         &#8226; Seismic performance assessment; Seismic design;
-      # I am a researcher specializing in numerical simulation of various structures subjected to ground motions.
-      # "&#8226; 11321312412"
 
 education:
     title: Education & Employment History
     info:
+      - degree: Assistant Professor
+        university: Honam University
+        time: 2024 - Current
+        details: 1
       - degree: Research Assistant Professor
         university: Hanyang University
-        time: 2021 - Current
+        time: 2021 - 2024
         details: 1
       - degree: Post-doctoral Researcher
         university: Hanyang University
@@ -93,7 +95,6 @@ experiences:
         time: 2023/09–2023/12
         company: Hanyang University, Republic of Korea
         # details: Structural Reliability and Risk (Instructor, 3-hr/week)
-            # - Bullet point
             # - Bullet point
 
       - role: Reinforced Concrete Engineering (Instructor, 3-hr/week)
@@ -172,7 +173,7 @@ oss:
 #         authors: Edgar T. Irons
 #         conference: "Comm. ACM 4 (1961), 51–55"
 
-publications-2023:
+publications:
     title: SCIE Publications
     papers:
       - title: <b>Lee CS</b>, Mangalathu S, Jeon J<sup>*</sup>. Machine learning–assisted drift capacity prediction models for reinforced concrete columns with shape memory alloy bars. <i>Computer-Aided Civil and Infrastructure Engineering</i>. <b>2024</b>;39(4):595-616.

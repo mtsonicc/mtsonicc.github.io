@@ -5,7 +5,9 @@
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+      <!-- <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i> -->
+      <i class="fas fa-edit fa-stack-1x fa-inverse"></i>
+
     </span>
     {{ publications.title }}
   </h2>
@@ -19,7 +21,7 @@
   {% for publication in publications.papers %}
   <div class="item">
     {% if publication.link %}
-      <li><a href="{{ publication.link }}">{{ publication.title }}</a></li>
+      <li><a href="{{ publication.link }}" target="_blank" rel="noopener noreferrer">{{ publication.title }}</a></li>
     {% else %}
       <li>{{ publication.title }}</li>
     {% endif %}
