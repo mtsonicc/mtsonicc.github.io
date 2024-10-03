@@ -29,7 +29,7 @@ sidebar:
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
     orcid: 0000-0002-8205-8147
-    pdf: ./cv.pdf
+    # pdf: ./cv.pdf
 
     # languages:
     #   title: Languages
