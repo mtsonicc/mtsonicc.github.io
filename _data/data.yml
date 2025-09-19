@@ -13,7 +13,7 @@ sidebar:
     # avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: leej@honam.ac.kr
+    email: jlee@kumoh.ac.kr
     # phone: 012 345 6789
     # timezone: America/Cancun Timezone
     # citizenship:
@@ -70,8 +70,12 @@ education:
     title: Education & Employment History
     info:
       - degree: Assistant Professor
+        university: Kumoh National Institute of Technology
+        time: 2025 - Current
+        details: 1
+      - degree: Assistant Professor
         university: Honam University
-        time: 2024 - Current
+        time: 2024 - 2025
         details: 1
       # - degree: Research Assistant Professor
       #   university: Hanyang University
@@ -178,6 +182,8 @@ oss:
 publications:
     title: SCIE Publications
     papers:
+      - title: <b>Lee CS</b>, Choi E, Jeon J<sup>*</sup>. Optimum hysteretic model selection for reinforced concrete columns subjected to rebar buckling. <i>Structures</i>. <b>2025</b>;80:110075.
+        link: https://doi.org/10.1016/j.istruc.2025.110075
       - title: Kim M, <b>Lee CS<sup>*</sup></b>, Kim B, Jeon J<sup>*</sup>. Effect of soil profile-related parameters on seismic performance of ductile reinforced concrete building frames in California. <i>Soil Dynamics and Earthquake Engineering</i>. <b>2025</b>;190:109118.
         link: https://doi.org/10.1016/j.soildyn.2024.109118
       - title: Shturmin S, <b>Lee CS</b>, Choi E, Jeon J<sup>*</sup>. Machine learning-based residual drift prediction of concrete-filled steel tube columns under earthquake loads. <i>Journal of Building Engineering</i>. <b>2024</b>;97:110903.
