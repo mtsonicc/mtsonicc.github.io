@@ -1,22 +1,461 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Computational Structural Intelligence Lab</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
 
-{% include career-profile.html %}
+<body>
 
-{% unless site.data.data.sidebar.education %}
-{% include education.html %}
-{% endunless %}
+    <nav>
+        <a class="nav-logo" href="#">CSIL</a>
+        <button class="nav-hamburger" id="navHamburger" aria-label="Toggle navigation">
+            <span></span><span></span><span></span>
+        </button>
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">Dark</button>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#research">Research</a></li>
+            <li><a href="#members">People</a></li>
+            <li><a href="#publications">Publications</a></li>
+        </ul>
+    </nav>
 
-<!-- {% include experiences.html %} -->
+    <header>
+        <div class="hero-bg-mark">CSIL</div>
+        <p class="hero-eyebrow">Department of Architectural Engineering</p>
+        <h1 class="hero-title">
+            Computational<br />
+            <em>Structural Intelligence</em><br />
+            Laboratory
+        </h1>
+        <p class="hero-sub">
+            We develop computational methods and AI-driven frameworks to advance the analysis, design, and resilience of complex structural systems.
+        </p>
+    </header>
 
-{% include certifications.html %}
+    <!-- RESEARCH -->
+    <section id="research">
+        <p class="section-label">Research Topics</p>
 
-{% include projects.html %}
+        <div class="research-grid">
 
-{% include oss-contributions.html %}
+            <div class="research-item">
+                <div class="research-num">02</div>
+                <h3>Data-Driven Structural Analysis</h3>
+                <p>
+                    Machine learning, surrogate modeling, and data-driven approaches for efficient prediction and simulation of nonlinear structural behavior.
+                </p>
+            </div>
 
-{% include publications.html %}
+            <div class="research-item">
+                <div class="research-num">03</div>
+                <h3>Optimization</h3>
+                <p>
+                    Structural design optimization and AI-assisted computational methods for resilient, efficient, and high-performance structural systems.
+                </p>
+            </div>
 
-<!-- {% include skills.html %} -->
+            <div class="research-item">
+                <div class="research-num">04</div>
+                <h3>Seismic Performance Assessment</h3>
+                <p>
+                    Performance-based earthquake engineering, probabilistic seismic risk assessment, and collapse evaluation of structural systems under extreme loading conditions.
+                </p>
+            </div>
+
+            <div class="research-item">
+                <div class="research-num">06</div>
+                <h3>Smart Material Models</h3>
+                <p>
+                    Development of computational constitutive and hysteretic models for smart, adaptive, and nonlinear structural materials subjected to complex loading conditions.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <!-- MEMBERS -->
+    <!-- <section id="members">
+  <p class="section-label">People</p>
+  <div class="members-grid">
+    <div class="member-card">
+      <div class="member-avatar">CS</div>
+      <h3>Prof. Chang Seok Lee</h3>
+      <p>Principal Investigator</p>
+      <span class="member-role-badge">Director</span>
+    </div>
+  </div>
+</section> -->
+
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+        <p class="section-label">Publications</p>
+        <div class="pub-list">
+
+            <div class="pub-item">
+                <div class="pub-year">2025</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.istruc.2025.110075" target="_blank" rel="noopener">
+                        <span class="pub-title">Optimum hysteretic model selection for reinforced concrete columns subjected to rebar buckling</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Choi E, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Structures</i>, 80:110075</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.istruc.2025.110075" target="_blank" rel="noopener">DOI: 10.1016/j.istruc.2025.110075</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2025</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.soildyn.2024.109118" target="_blank" rel="noopener">
+                        <span class="pub-title">Effect of soil profile-related parameters on seismic performance of ductile reinforced concrete building frames in California</span>
+                    </a>
+                    <div class="pub-authors">Kim M, <b>Lee CS<sup>*</sup></b>, Kim B, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Soil Dynamics and Earthquake Engineering</i>, 190:109118</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.soildyn.2024.109118" target="_blank" rel="noopener">DOI: 10.1016/j.soildyn.2024.109118</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2024</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.jobe.2024.110903" target="_blank" rel="noopener">
+                        <span class="pub-title">Machine learning-based residual drift prediction of concrete-filled steel tube columns under earthquake loads</span>
+                    </a>
+                    <div class="pub-authors">Shturmin S, <b>Lee CS</b>, Choi E, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Journal of Building Engineering</i>, 97:110903</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.jobe.2024.110903" target="_blank" rel="noopener">DOI: 10.1016/j.jobe.2024.110903</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2024</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.soildyn.2024.108519" target="_blank" rel="noopener">
+                        <span class="pub-title">Hysteretic model parameters for seismic performance assessment of cyclically degraded reinforced concrete columns</span>
+                    </a>
+                    <div class="pub-authors">Park Y, <b>Lee CS<sup>*</sup></b>, Jeon J</div>
+                    <div class="pub-venue"><i>Soil Dynamics and Earthquake Engineering</i>, 179:108519</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.soildyn.2024.108519" target="_blank" rel="noopener">DOI: 10.1016/j.soildyn.2024.108519</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2024</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1111/mice.13112" target="_blank" rel="noopener">
+                        <span class="pub-title">Machine learning–assisted drift capacity prediction models for reinforced concrete columns with shape memory alloy bars</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Mangalathu S, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Computer-Aided Civil and Infrastructure Engineering</i>, 39(4):595–616</div>
+                    <a class="pub-doi" href="https://doi.org/10.1111/mice.13112" target="_blank" rel="noopener">DOI: 10.1111/mice.13112</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2023</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.jcsr.2023.108196" target="_blank" rel="noopener">
+                        <span class="pub-title">Lumped plasticity model for simulating the inelastic earthquake response of CFT columns</span>
+                    </a>
+                    <div class="pub-authors">Shturmin S, <b>Lee CS</b>, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Journal of Constructional Steel Research</i>, 211:108196</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.jcsr.2023.108196" target="_blank" rel="noopener">DOI: 10.1016/j.jcsr.2023.108196</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2023</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.engstruct.2023.116976" target="_blank" rel="noopener">
+                        <span class="pub-title">Seismic risk-based optimization of tension-only shape-memory alloy device for steel moment-resisting frames</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Engineering Structures</i>, 296:116976</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.engstruct.2023.116976" target="_blank" rel="noopener">DOI: 10.1016/j.engstruct.2023.116976</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2023</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.engstruct.2023.116295" target="_blank" rel="noopener">
+                        <span class="pub-title">Risk-based seismic design of diagonal self-centering shape-memory alloy wire-based bracing system in multi-column bent bridges</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Engineering Structures</i>, 289:116295</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.engstruct.2023.116295" target="_blank" rel="noopener">DOI: 10.1016/j.engstruct.2023.116295</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2022</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1002/eqe.3650" target="_blank" rel="noopener">
+                        <span class="pub-title">Probabilistic residual deformation prediction model for rectangular reinforced concrete columns</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Earthquake Engineering &amp; Structural Dynamics</i>, 51(9):1994–2015</div>
+                    <a class="pub-doi" href="https://doi.org/10.1002/eqe.3650" target="_blank" rel="noopener">DOI: 10.1002/eqe.3650</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2022</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1002/eqe.3566" target="_blank" rel="noopener">
+                        <span class="pub-title">Phenomenological hysteretic model for superelastic NiTi shape memory alloys accounting for functional degradation</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Earthquake Engineering &amp; Structural Dynamics</i>, 51(2):277–309</div>
+                    <a class="pub-doi" href="https://doi.org/10.1002/eqe.3566" target="_blank" rel="noopener">DOI: 10.1002/eqe.3566</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2022</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.jobe.2022.104546" target="_blank" rel="noopener">
+                        <span class="pub-title">Drift limit state predictions of rectangular reinforced concrete columns with superelastic shape memory alloy rebars</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Journal of Building Engineering</i>, 54:104546</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.jobe.2022.104546" target="_blank" rel="noopener">DOI: 10.1016/j.jobe.2022.104546</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2022</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.engstruct.2021.113641" target="_blank" rel="noopener">
+                        <span class="pub-title">Estimating the plastic hinge length of rectangular concrete columns reinforced with NiTi superelastic shape memory alloys</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Choi E, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Engineering Structures</i>, 252:113641</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.engstruct.2021.113641" target="_blank" rel="noopener">DOI: 10.1016/j.engstruct.2021.113641</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2021</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.engstruct.2021.112820" target="_blank" rel="noopener">
+                        <span class="pub-title">Model parameter prediction of lumped plasticity model for nonlinear simulation of circular reinforced concrete columns</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Park Y, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Engineering Structures</i>, 245:112820</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.engstruct.2021.112820" target="_blank" rel="noopener">DOI: 10.1016/j.engstruct.2021.112820</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2021</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1002/eqe.3543" target="_blank" rel="noopener">
+                        <span class="pub-title">Adaptive hysteretic model for reinforced concrete columns including variations in axial force and shear span length</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Earthquake Engineering &amp; Structural Dynamics</i>, 50(15):4001–4031</div>
+                    <a class="pub-doi" href="https://doi.org/10.1002/eqe.3543" target="_blank" rel="noopener">DOI: 10.1002/eqe.3543</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2021</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1186/s40069-020-00446-5" target="_blank" rel="noopener">
+                        <span class="pub-title">An Accurate Numerical Model Simulating Hysteretic Behavior of Reinforced Concrete Columns Irrespective of Types of Loading Protocols</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Han SW<sup>*</sup></div>
+                    <div class="pub-venue"><i>International Journal of Concrete Structures and Materials</i>, 15(1):5</div>
+                    <a class="pub-doi" href="https://doi.org/10.1186/s40069-020-00446-5" target="_blank" rel="noopener">DOI: 10.1186/s40069-020-00446-5</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2021</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.jobe.2021.102650" target="_blank" rel="noopener">
+                        <span class="pub-title">Modeling parameters and acceptable plastic chord rotations for diagonally reinforced concrete coupling beams</span>
+                    </a>
+                    <div class="pub-authors">Han SW<sup>*</sup>, <b>Lee CS</b>, Cho ES</div>
+                    <div class="pub-venue"><i>Journal of Building Engineering</i>, 44:102650</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.jobe.2021.102650" target="_blank" rel="noopener">DOI: 10.1016/j.jobe.2021.102650</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2021</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.engstruct.2021.112922" target="_blank" rel="noopener">
+                        <span class="pub-title">Model development and seismic performance evaluation of rectangular reinforced concrete columns with short lap splices in existing building frames</span>
+                    </a>
+                    <div class="pub-authors">Alvi MH, <b>Lee CS</b>, Jeon J<sup>*</sup></div>
+                    <div class="pub-venue"><i>Engineering Structures</i>, 245:112922</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.engstruct.2021.112922" target="_blank" rel="noopener">DOI: 10.1016/j.engstruct.2021.112922</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2020</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.engstruct.2020.111304" target="_blank" rel="noopener">
+                        <span class="pub-title">Cyclic behavior of RC OMF beam-corner column joints under unidirectional and bidirectional loadings</span>
+                    </a>
+                    <div class="pub-authors">Han SW<sup>*</sup>, <b>Lee CS</b></div>
+                    <div class="pub-venue"><i>Engineering Structures</i>, 224:111304</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.engstruct.2020.111304" target="_blank" rel="noopener">DOI: 10.1016/j.engstruct.2020.111304</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2020</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1177/8755293019899960" target="_blank" rel="noopener">
+                        <span class="pub-title">Cyclic behavior of lightly reinforced concrete moment frames with partial- and full-height masonry walls</span>
+                    </a>
+                    <div class="pub-authors">Han SW, <b>Lee CS<sup>*</sup></b></div>
+                    <div class="pub-venue"><i>Earthquake Spectra</i>, 36(2):599–628</div>
+                    <a class="pub-doi" href="https://doi.org/10.1177/8755293019899960" target="_blank" rel="noopener">DOI: 10.1177/8755293019899960</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2020</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1007/s10518-019-00693-2" target="_blank" rel="noopener">
+                        <span class="pub-title">Fragility functions of different groups of diagonally reinforced concrete coupling beams (DRCBs)</span>
+                    </a>
+                    <div class="pub-authors">Han SW, Koh H, <b>Lee CS<sup>*</sup></b></div>
+                    <div class="pub-venue"><i>Bulletin of Earthquake Engineering</i>, 18(1):165–187</div>
+                    <a class="pub-doi" href="https://doi.org/10.1007/s10518-019-00693-2" target="_blank" rel="noopener">DOI: 10.1007/s10518-019-00693-2</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2019</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.engstruct.2019.03.108" target="_blank" rel="noopener">
+                        <span class="pub-title">Cyclic behaviour of lightly-reinforced concrete columns with short lap splices subjected to unidirectional and bidirectional loadings</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Han SW<sup>*</sup></div>
+                    <div class="pub-venue"><i>Engineering Structures</i>, 189:373–384</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.engstruct.2019.03.108" target="_blank" rel="noopener">DOI: 10.1016/j.engstruct.2019.03.108</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2019</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1193/060717EQS108M" target="_blank" rel="noopener">
+                        <span class="pub-title">Accurate and Efficient Simulation of Cyclic Behavior of Diagonally Reinforced Concrete Coupling Beams</span>
+                    </a>
+                    <div class="pub-authors">Han SW, Koh H, <b>Lee CS<sup>*</sup></b></div>
+                    <div class="pub-venue"><i>Earthquake Spectra</i>, 35(1):361–381</div>
+                    <a class="pub-doi" href="https://doi.org/10.1193/060717EQS108M" target="_blank" rel="noopener">DOI: 10.1193/060717EQS108M</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2018</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1007/s13296-018-0071-5" target="_blank" rel="noopener">
+                        <span class="pub-title">Computationally Efficient and Accurate Simulation of Cyclic Behavior for Rectangular HSS Braces</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Sung MS, Han SW<sup>*</sup>, Jee HW</div>
+                    <div class="pub-venue"><i>International Journal of Steel Structures</i>, 18(4):1125–1138</div>
+                    <a class="pub-doi" href="https://doi.org/10.1007/s13296-018-0071-5" target="_blank" rel="noopener">DOI: 10.1007/s13296-018-0071-5</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+            <div class="pub-item">
+                <div class="pub-year">2018</div>
+                <div>
+                    <a class="pub-title-link" href="https://doi.org/10.1016/j.engstruct.2018.07.020" target="_blank" rel="noopener">
+                        <span class="pub-title">Computationally effective and accurate simulation of cyclic behaviour of old reinforced concrete columns</span>
+                    </a>
+                    <div class="pub-authors"><b>Lee CS</b>, Han SW<sup>*</sup></div>
+                    <div class="pub-venue"><i>Engineering Structures</i>, 173:892–907</div>
+                    <a class="pub-doi" href="https://doi.org/10.1016/j.engstruct.2018.07.020" target="_blank" rel="noopener">DOI: 10.1016/j.engstruct.2018.07.020</a>
+                </div>
+                <span class="pub-tag">Journal</span>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <span>© 2025 Computational Structural Intelligence Lab</span>
+        <span>
+            <a href="mailto:csil@university.edu">csil@university.edu</a>
+        </span>
+    </footer>
+
+    <script>
+        const toggle = document.getElementById('themeToggle');
+        const root = document.documentElement;
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+        function getEffectiveTheme() {
+            const stored = localStorage.getItem('csil-theme');
+            if (stored) return stored;
+            return prefersDark.matches ? 'dark' : 'light';
+        }
+
+        function applyTheme(theme) {
+            root.setAttribute('data-theme', theme);
+            toggle.textContent = theme === 'dark' ? 'Light' : 'Dark';
+            localStorage.setItem('csil-theme', theme);
+        }
+
+        applyTheme(getEffectiveTheme());
+
+        toggle.addEventListener('click', () => {
+            const current = root.getAttribute('data-theme');
+            applyTheme(current === 'dark' ? 'light' : 'dark');
+        });
+
+        const hamburger = document.getElementById('navHamburger');
+        const navLinks = document.getElementById('navLinks');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            navLinks.classList.toggle('open');
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('open');
+                navLinks.classList.remove('open');
+            });
+        });
+    </script>
+</body>
+
+</html>
