@@ -238,6 +238,7 @@ header {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -398,14 +399,15 @@ section {
     font-family: var(--serif);
     font-size: 0.85rem;
     font-weight: 500;
+    font-family: var(--sans);
     color: var(--ink-muted);
     padding-top: 0.2rem;
 }
 
 .pub-title {
     font-family: var(--serif);
-    font-size: 1.05rem;
-    font-weight: 700;
+    font-size: 1.2rem;
+    font-weight: 800;
     line-height: 1.4;
     margin-bottom: 0.4rem;
     color: var(--ink);
@@ -432,17 +434,17 @@ section {
 
 .pub-authors {
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--ink-muted);
     margin-bottom: 0.3rem;
 }
 
 .pub-venue {
-    font-size: 0.78rem;
-    font-weight: 600;
+    font-size: 0.75rem;
+    font-weight: 500;
     color: var(--accent);
     font-style: italic;
-    font-family: var(--serif);
+    /* font-family: var(--serif); */
 }
 
 .pub-meta {
@@ -486,9 +488,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.78rem;
+    font-size: 0.8rem;
     color: var(--ink-muted);
     letter-spacing: 0.04em;
+    font-family: var(--serif);
 }
 
 footer a {
