@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
     <title>Computational Structural Intelligence Lab</title>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
@@ -44,7 +45,7 @@
         <div class="research-grid">
 
             <div class="research-item">
-                <div class="research-num">02</div>
+                <div class="research-num">01</div>
                 <h3>Data-Driven Structural Analysis</h3>
                 <p>
                     Machine learning, surrogate modeling, and data-driven approaches for efficient prediction and simulation of nonlinear structural behavior.
@@ -52,7 +53,7 @@
             </div>
 
             <div class="research-item">
-                <div class="research-num">03</div>
+                <div class="research-num">02</div>
                 <h3>Optimization</h3>
                 <p>
                     Structural design optimization and AI-assisted computational methods for resilient, efficient, and high-performance structural systems.
@@ -60,7 +61,7 @@
             </div>
 
             <div class="research-item">
-                <div class="research-num">04</div>
+                <div class="research-num">03</div>
                 <h3>Seismic Performance Assessment</h3>
                 <p>
                     Performance-based earthquake engineering, probabilistic seismic risk assessment, and collapse evaluation of structural systems under extreme loading conditions.
@@ -68,7 +69,7 @@
             </div>
 
             <div class="research-item">
-                <div class="research-num">06</div>
+                <div class="research-num">04</div>
                 <h3>Smart Material Models</h3>
                 <p>
                     Development of computational constitutive and hysteretic models for smart, adaptive, and nonlinear structural materials subjected to complex loading conditions.
@@ -77,18 +78,19 @@
 
         </div>
     </section>
+
     <!-- MEMBERS -->
-    <section id="members">
+    <!-- <section id="members">
         <p class="section-label">People</p>
         <div class="members-grid">
             <div class="member-card">
                 <div class="member-avatar">CS</div>
-                <h3>Prof. Chang Seok Lee</h3>
+                <h3>Prof. Chang Seok Lee</h3> -->
                 <!-- <p>Principal Investigator</p> -->
                 <!-- <span class="member-role-badge">Director</span> -->
-            </div>
+            <!-- </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- PUBLICATIONS -->
     <section id="publications">
@@ -422,23 +424,34 @@
         const root = document.documentElement;
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
 
-        function getEffectiveTheme() {
+        function getStoredTheme() {
             const stored = localStorage.getItem('csil-theme');
-            if (stored) return stored;
+            return stored === 'dark' || stored === 'light' ? stored : null;
+        }
+
+        function getSystemTheme() {
             return prefersDark.matches ? 'dark' : 'light';
         }
 
-        function applyTheme(theme) {
+        function setTheme(theme, persist = false) {
             root.setAttribute('data-theme', theme);
             toggle.textContent = theme === 'dark' ? 'Light' : 'Dark';
-            localStorage.setItem('csil-theme', theme);
+            if (persist) {
+                localStorage.setItem('csil-theme', theme);
+            }
         }
 
-        applyTheme(getEffectiveTheme());
+        setTheme(getStoredTheme() || getSystemTheme());
 
         toggle.addEventListener('click', () => {
             const current = root.getAttribute('data-theme');
-            applyTheme(current === 'dark' ? 'light' : 'dark');
+            setTheme(current === 'dark' ? 'light' : 'dark', true);
+        });
+
+        prefersDark.addEventListener('change', () => {
+            if (!getStoredTheme()) {
+                setTheme(getSystemTheme());
+            }
         });
 
         const hamburger = document.getElementById('navHamburger');
