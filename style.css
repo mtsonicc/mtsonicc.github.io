@@ -14,6 +14,7 @@
     --accent: #1C3A5E;
     --accent-light: #E8EDF3;
     --research-num: rgba(28, 58, 94, 0.18);
+    --hero-bg-mark: rgba(28, 58, 94, 0.055);
     --rule: rgba(26, 26, 24, 0.12);
     --nav-bg: rgba(247, 246, 242, 0.92);
     --hover-bg: #ffffff;
@@ -29,6 +30,7 @@
         --accent: #7BAFD4;
         --accent-light: #152030;
         --research-num: rgba(123, 175, 212, 0.54);
+        --hero-bg-mark: rgba(123, 175, 212, 0.18);
         --rule: rgba(232, 231, 227, 0.1);
         --nav-bg: rgba(17, 17, 16, 0.92);
         --hover-bg: #1A1A18;
@@ -43,6 +45,7 @@
     --accent-light: #152030;
     /* --research-num: rgba(123, 175, 212, 0.54); */
     --research-num: #7BAFD4;
+    --hero-bg-mark: rgba(123, 175, 212, 0.18);
     --rule: rgba(232, 231, 227, 0.1);
     --nav-bg: rgba(17, 17, 16, 0.92);
     --hover-bg: #1A1A18;
@@ -55,6 +58,7 @@
     --accent: #1C3A5E;
     --accent-light: #E8EDF3;
     --research-num: rgba(28, 58, 94, 0.6);
+    --hero-bg-mark: rgba(28, 58, 94, 0.055);
     --rule: rgba(26, 26, 24, 0.12);
     --nav-bg: rgba(247, 246, 242, 0.92);
     --hover-bg: #ffffff;
@@ -231,7 +235,7 @@ header {
     font-family: var(--serif);
     font-size: clamp(8rem, 18vw, 18rem);
     font-weight: 600;
-    color: rgba(28, 58, 94, 0.055);
+    color: var(--hero-bg-mark);
     letter-spacing: -0.04em;
     pointer-events: none;
     user-select: none;
