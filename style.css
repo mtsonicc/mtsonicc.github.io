@@ -41,7 +41,8 @@
     --ink-muted: #888884;
     --accent: #7BAFD4;
     --accent-light: #152030;
-    --research-num: rgba(123, 175, 212, 0.54);
+    /* --research-num: rgba(123, 175, 212, 0.54); */
+    --research-num: #7BAFD4;
     --rule: rgba(232, 231, 227, 0.1);
     --nav-bg: rgba(17, 17, 16, 0.92);
     --hover-bg: #1A1A18;
@@ -53,7 +54,7 @@
     --ink-muted: #6B6A66;
     --accent: #1C3A5E;
     --accent-light: #E8EDF3;
-    --research-num: rgba(28, 58, 94, 0.18);
+    --research-num: rgba(28, 58, 94, 0.6);
     --rule: rgba(26, 26, 24, 0.12);
     --nav-bg: rgba(247, 246, 242, 0.92);
     --hover-bg: #ffffff;
